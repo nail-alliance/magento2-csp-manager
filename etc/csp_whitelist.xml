@@ -5,9 +5,7 @@
         <policy id="script-src">
             <values>
                 <value id="paypal" type="host">https://www.paypal.com</value>
-                <value id="square" type="host">https://js.squareup.com</value>
                 <value id="google-analytics" type="host">https://www.google-analytics.com</value>
-                <value id="squarecdn" type="host">https://web.squarecdn.com</value>
             </values>
         </policy>
 
@@ -31,7 +29,6 @@
         <policy id="img-src">
             <values>
                 <value id="paypal-images" type="host">https://www.paypal.com</value>
-                <value id="squarecdn" type="host">https://*.squarecdn.com</value>
             </values>
         </policy>
         
@@ -46,9 +43,6 @@
         <policy id="connect-src">
             <values>
                 <value id="paypal-api" type="host">https://api.paypal.com</value>
-                <value id="square-api" type="host">https://api.squareup.com</value>
-                <value id="square-connect" type="host">https://connect.squareup.com</value>
-                <value id="square-sandbox" type="host">https://js.squareupsandbox.com</value>
                 <value id="google-analytics-region1" type="host">https://region1.google-analytics.com</value>
                 <value id="google" type="host">https://google.com</value>
                 <value id="google-pay" type="host">https://pay.google.com</value>
