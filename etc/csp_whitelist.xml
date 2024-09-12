@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp:etc/csp_whitelist.xsd">
+    <policies>
+        <!-- Allow external JavaScript sources -->
+        <policy id="script-src">
+            <values>
+                <value id="paypal" type="host">https://www.paypal.com</value>
+                <value id="square" type="host">https://js.squareup.com</value>
+                <value id="google-analytics" type="host">https://www.google-analytics.com</value>
+                <value id="squarecdn" type="host">https://web.squarecdn.com</value>
+            </values>
+        </policy>
+
+        <!-- Allow external CSS sources -->
+        <policy id="style-src">
+            <values>
+                <value id="google-css" type="host">https://fonts.googleapis.com</value>
+                <value id="klaviyo-css" type="host">https://static.klaviyo.com</value>
+            </values>
+        </policy>
+        
+         <!-- Allow external font sources -->
+        <policy id="font-src">
+            <values>
+                <value id="google-fonts" type="host">https://fonts.googleapis.com</value>
+                <value id="klaviyo-fonts" type="host">https://static.klaviyo.com</value>
+            </values>
+        </policy>
+
+        <!-- Allow external image sources -->
+        <policy id="img-src">
+            <values>
+                <value id="paypal-images" type="host">https://www.paypal.com</value>
+                <value id="squarecdn" type="host">https://*.squarecdn.com</value>
+            </values>
+        </policy>
+        
+       <!-- Allow external image sources -->
+        <policy id="frame-src">
+            <values>
+                <value id="visa-partner-arcot" type="host">https://secure7.arcot.com</value>
+            </values>
+        </policy>
+
+        <!-- Allow external connection sources (e.g., API endpoints) -->
+        <policy id="connect-src">
+            <values>
+                <value id="paypal-api" type="host">https://api.paypal.com</value>
+                <value id="square-api" type="host">https://api.squareup.com</value>
+                <value id="square-connect" type="host">https://connect.squareup.com</value>
+                <value id="square-sandbox" type="host">https://js.squareupsandbox.com</value>
+                <value id="google-analytics-region1" type="host">https://region1.google-analytics.com</value>
+                <value id="google" type="host">https://google.com</value>
+                <value id="google-pay" type="host">https://pay.google.com</value>
+                <value id="cardinal-commerce" type="host">https://geoissuer.cardinalcommerce.com</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>
