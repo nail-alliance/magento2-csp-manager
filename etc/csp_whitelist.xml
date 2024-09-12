@@ -8,6 +8,7 @@
                 <value id="square" type="host">https://js.squareup.com</value>
                 <value id="google-analytics" type="host">https://www.google-analytics.com</value>
                 <value id="squarecdn" type="host">https://web.squarecdn.com</value>
+                <value id="media-scripts" type="host">https://nailtechsupply.com/media/svelte-components</value>
             </values>
         </policy>
 
