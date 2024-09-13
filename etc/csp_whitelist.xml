@@ -14,6 +14,7 @@
             <values>
                 <value id="google-css" type="host">https://fonts.googleapis.com</value>
                 <value id="klaviyo-css" type="host">https://static.klaviyo.com</value>
+                <value id="klaviyo-tracking-src" type="host">https://static.tracking.klaviyo.com</value>
             </values>
         </policy>
         
@@ -32,13 +33,13 @@
             </values>
         </policy>
         
-       <!-- Allow external image sources -->
+       <!-- Allow external frame sources -->
         <policy id="frame-src">
             <values>
                 <value id="visa-partner-arcot" type="host">https://secure7.arcot.com</value>
             </values>
         </policy>
-
+       
         <!-- Allow external connection sources (e.g., API endpoints) -->
         <policy id="connect-src">
             <values>
