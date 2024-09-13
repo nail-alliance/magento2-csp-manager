@@ -50,8 +50,9 @@
             <values>
                 <value id="paypal-api" type="host">https://api.paypal.com</value>
                 <value id="google-analytics-region1" type="host">https://region1.google-analytics.com</value>
-                <value id="google" type="host">https://google.com</value>
+                <value id="google-connect" type="host">https://google.com</value>
                 <value id="google-pay-connect" type="host">https://pay.google.com</value>
+                <value id="google-pay-alt-connect" type="host">https://google.com/pay</value>
                 <value id="cardinal-commerce" type="host">https://geoissuer.cardinalcommerce.com</value>
             </values>
         </policy>
