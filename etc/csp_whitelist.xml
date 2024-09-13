@@ -4,8 +4,11 @@
         <!-- Allow external JavaScript sources -->
         <policy id="script-src">
             <values>
-                <value id="paypal" type="host">https://www.paypal.com</value>
-                <value id="google-analytics" type="host">https://www.google-analytics.com</value>
+                <value id="paypal-scripts" type="host">https://www.paypal.com</value>
+                <value id="google-analytics-scripts" type="host">https://www.google-analytics.com</value>
+                 <value id="google-pay-scripts" type="host">https://pay.google.com</value>
+                <value id="google-scripts" type="host">https://google.com</value>
+                <value id="klaviyo-scripts" type="host">https://static.klaviyo.com</value>
             </values>
         </policy>
 
@@ -30,6 +33,7 @@
         <policy id="img-src">
             <values>
                 <value id="paypal-images" type="host">https://www.paypal.com</value>
+                <value id="cloudfront-img" type="host">https://*.cloudfront.net</value>
             </values>
         </policy>
         
@@ -37,6 +41,7 @@
         <policy id="frame-src">
             <values>
                 <value id="visa-partner-arcot" type="host">https://secure7.arcot.com</value>
+                <value id="google-pay-frame" type="host">https://pay.google.com</value>
             </values>
         </policy>
        
@@ -46,7 +51,7 @@
                 <value id="paypal-api" type="host">https://api.paypal.com</value>
                 <value id="google-analytics-region1" type="host">https://region1.google-analytics.com</value>
                 <value id="google" type="host">https://google.com</value>
-                <value id="google-pay" type="host">https://pay.google.com</value>
+                <value id="google-pay-connect" type="host">https://pay.google.com</value>
                 <value id="cardinal-commerce" type="host">https://geoissuer.cardinalcommerce.com</value>
             </values>
         </policy>
