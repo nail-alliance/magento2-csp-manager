@@ -94,9 +94,6 @@
                 <value id="rsa-3ds-form" type="host">www.rsa3dsauth.co.uk</value>
             </values>
         </policy>
-        
-        3dsecure.starlingbank.com
-       
         <!-- Allow external connection sources (e.g., API endpoints) -->
         <policy id="connect-src">
             <values>
