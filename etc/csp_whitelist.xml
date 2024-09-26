@@ -6,9 +6,21 @@
             <values>
                 <value id="paypal-scripts" type="host">https://www.paypal.com</value>
                 <value id="google-analytics-scripts" type="host">https://www.google-analytics.com</value>
-                 <value id="google-pay-scripts" type="host">https://pay.google.com</value>
+                <value id="google-pay-scripts" type="host">https://pay.google.com</value>
                 <value id="google-scripts" type="host">https://google.com</value>
                 <value id="klaviyo-scripts" type="host">https://static.klaviyo.com</value>
+
+                <!-- Added from original file -->
+                <value id="cloudflare" type="host">*.cloudflare.com</value>
+                <value id="amex" type="host">*.americanexpress.com</value>
+                <value id="google-tag-analytics" type="host">*.googletagmanager.com</value>
+                <value id="gstatic" type="host">*.gstatic.com</value>
+                <value id="facebook_net" type="host">*.facebook.net</value>
+                <value id="facebook_com" type="host">*.facebook.com</value>
+                <value id="accessibe_sub" type="host">*.acsbapp.com</value>
+                <value id="accessibe" type="host">acsbapp.com</value>
+                <value id="youtube" type="host">*.youtube.com</value>
+                <value id="nailallianceuk" type="host">*.nailalliance.co.uk</value>
             </values>
         </policy>
 
@@ -18,14 +30,28 @@
                 <value id="google-css" type="host">https://fonts.googleapis.com</value>
                 <value id="klaviyo-css" type="host">https://static.klaviyo.com</value>
                 <value id="klaviyo-tracking-src" type="host">https://static.tracking.klaviyo.com</value>
+
+                <!-- Added from original file -->
+                <value id="cloudflare" type="host">*.cloudflare.com</value>
+                <value id="typekit" type="host">*.typekit.net</value>
+                <value id="gstatic" type="host">*.gstatic.com</value>
+                <value id="fonts_net" type="host">*.fonts.net</value>
+                <value id="fonts_googleapis_com" type="host">fonts.googleapis.com</value>
             </values>
         </policy>
         
-         <!-- Allow external font sources -->
+        <!-- Allow external font sources -->
         <policy id="font-src">
             <values>
                 <value id="google-fonts" type="host">https://fonts.googleapis.com</value>
                 <value id="klaviyo-fonts" type="host">https://static.klaviyo.com</value>
+
+                <!-- Added from original file -->
+                <value id="cloudflare" type="host">*.cloudflare.com</value>
+                <value id="typekit" type="host">*.typekit.net</value>
+                <value id="trustedshops" type="host">*.trustedshops.com</value>
+                <value id="gstatic" type="host">*.gstatic.com</value>
+                <value id="fonts_net" type="host">*.fonts.net</value>
             </values>
         </policy>
 
@@ -34,16 +60,42 @@
             <values>
                 <value id="paypal-images" type="host">https://www.paypal.com</value>
                 <value id="cloudfront-img" type="host">https://*.cloudfront.net</value>
+
+                <!-- Added from original file -->
+                <value id="cloudflare" type="host">*.fbcdn.net</value>
+                <value id="nailallianceuk-img" type="host">*.nailalliance.co.uk</value>
+                <value id="vimeocdn" type="host">*.vimeocdn.com</value>
+                <value id="youtube-img" type="host">https://s.ytimg.com</value>
+                <value id="instagram-img" type="host">*.cdninstagram.com</value>
             </values>
         </policy>
         
-       <!-- Allow external frame sources -->
+        <!-- Allow external frame sources -->
         <policy id="frame-src">
             <values>
-                <value id="visa-partner-arcot" type="host">https://secure7.arcot.com</value>
+                <value id="visa-partner-arcot" type="host">*.arcot.com</value>
                 <value id="google-pay-frame" type="host">https://pay.google.com</value>
+                <value id="monzo-frame" type="host">*.monzo.com</value>
+                <value id="amex-frame" type="host">*.americanexpress.com</value>
+                <!-- Added from original file -->
+                <value id="youtube" type="host">*.youtube.com</value>
+                <value id="instagram" type="host">*.instagram.com</value>
+                <value id="google" type="host">*.google.com</value>
             </values>
         </policy>
+        <!-- Allow external form sources -->
+        <policy id="form-action">
+            <values>
+                <value id="visa-partner-arcot-form" type="host">*.arcot.com</value>
+                <value id="amex-form" type="host">*.americanexpress.com</value>
+                <value id="apata-form" type="host">*.apata.io</value>
+                <value id="secure-suite-form" type="host">securesuite.co.uk</value>
+                <value id="starling-bank-form" type="host">3dsecure.starlingbank.com</value>
+                <value id="rsa-3ds-form" type="host">www.rsa3dsauth.co.uk</value>
+            </values>
+        </policy>
+        
+        3dsecure.starlingbank.com
        
         <!-- Allow external connection sources (e.g., API endpoints) -->
         <policy id="connect-src">
@@ -54,6 +106,15 @@
                 <value id="google-pay-connect" type="host">https://pay.google.com</value>
                 <value id="google-pay-alt-connect" type="host">https://google.com/pay</value>
                 <value id="cardinal-commerce" type="host">https://geoissuer.cardinalcommerce.com</value>
+                <value id="samsung-pay" type="host">*.samsung.com</value>
+                <!-- Added from original file -->
+                <value id="facebook_com" type="host">*.facebook.com</value>
+                <value id="instagram" type="host">*.instagram.com</value>
+                <value id="google" type="host">*.google.com</value>
+                <value id="google-analytics" type="host">www.google-analytics.com</value>
+                <value id="accessibe" type="host">*.acsbapp.com</value>
+                <value id="arcot" type="host">*.arcot.com</value>
+                <value id="datadome-connect" type="host">api-js.datadome.co</value>
             </values>
         </policy>
     </policies>
