@@ -90,6 +90,7 @@
                 <value id="amex-form" type="host">*.americanexpress.com</value>
                 <value id="apata-form" type="host">*.apata.io</value>
                 <value id="secure-suite-form" type="host">securesuite.co.uk</value>
+                <value id="secure-suite-wildcard-form" type="host">*.securesuite.co.uk</value>
                 <value id="starling-bank-form" type="host">3dsecure.starlingbank.com</value>
                 <value id="rsa-3ds-form" type="host">www.rsa3dsauth.co.uk</value>
             </values>
