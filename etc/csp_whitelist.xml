@@ -86,6 +86,7 @@
                 <value id="rsa3ds-frame" type="host">https://rsa3dsauth.co.uk</value>
                 <value id="rsa3ds-frame-wildcard" type="host">https://*.rsa3dsauth.co.uk</value>
                 <value id="geoisser-frame-action" type="host">https://*.cardinalcommerce.com</value>
+                <value id="lloydsbankinggroup" type="host">https://*.lloydsbankinggroup.com</value>
             </values>
         </policy>
         <!-- Allow external form sources -->
